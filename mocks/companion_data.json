@@ -1,0 +1,118 @@
+{
+  "favorites": {
+    "food": [
+      {"name":"Sushi","kanji":"寿司","pronunciation":"すし","comment":"A classic favorite—delicious and healthy!"},
+      {"name":"Ramen","kanji":"ラーメン","pronunciation":"らーめん","comment":"Warm noodles with amazing broth!"},
+      {"name":"Tempura","kanji":"天ぷら","pronunciation":"てんぷら","comment":"Crispy and light, perfect with rice."},
+      {"name":"Okonomiyaki","kanji":"お好み焼き","pronunciation":"おこのみやき","comment":"Like a savory Japanese pancake—so fun to eat!"},
+      {"name":"Takoyaki","kanji":"たこ焼き","pronunciation":"たこやき","comment":"Little octopus balls—yummy street food!"},
+      {"name":"Soba","kanji":"そば","pronunciation":"そば","comment":"Buckwheat noodles, simple and tasty."},
+      {"name":"Onigiri","kanji":"おにぎり","pronunciation":"おにぎり","comment":"Rice balls perfect for a quick snack!"},
+      {"name":"Kaiseki","kanji":"懐石","pronunciation":"かいせき","comment":"A traditional multi-course Japanese meal, elegant!"},
+      {"name":"Mochi","kanji":"餅","pronunciation":"もち","comment":"Chewy and sweet, a favorite treat."},
+      {"name":"Matcha Ice Cream","kanji":"抹茶アイスクリーム","pronunciation":"まっちゃあいすくりーむ","comment":"Green tea flavor, smooth and refreshing."}
+    ],
+    "color": [
+      {"name":"Red","kanji":"赤","pronunciation":"あか","comment":"Bright and bold!"},
+      {"name":"Blue","kanji":"青","pronunciation":"あお","comment":"Calm and cool, like the ocean."},
+      {"name":"Green","kanji":"緑","pronunciation":"みどり","comment":"Fresh and lively, reminds me of nature."},
+      {"name":"Pink","kanji":"ピンク","pronunciation":"ぴんく","comment":"Soft and cheerful, feels cute!"},
+      {"name":"Yellow","kanji":"黄色","pronunciation":"きいろ","comment":"Warm and happy, like the sun."},
+      {"name":"Purple","kanji":"紫","pronunciation":"むらさき","comment":"Elegant and mysterious."},
+      {"name":"Orange","kanji":"オレンジ","pronunciation":"おれんじ","comment":"Fun and energetic!"},
+      {"name":"Black","kanji":"黒","pronunciation":"くろ","comment":"Strong and classic."},
+      {"name":"White","kanji":"白","pronunciation":"しろ","comment":"Pure and simple."},
+      {"name":"Teal","kanji":"ティール","pronunciation":"てぃーる","comment":"Unique and calming, like the ocean waves."}
+    ]
+  },
+  "locations": {
+    "vacation": [
+      {"name":"Kyoto","description":"Famous for its temples, shrines, and traditional culture."},
+      {"name":"Okinawa","description":"Beautiful beaches and subtropical islands."},
+      {"name":"Hakone","description":"Hot springs and views of Mount Fuji."},
+      {"name":"Hokkaido","description":"Nature, skiing, and fresh seafood."},
+      {"name":"Nara","description":"Historic city with friendly deer and temples."}
+    ],
+    "community_events": [
+      {"name":"Cherry Blossom Festival","description":"Springtime festival with sakura viewing parties."},
+      {"name":"Gion Matsuri","description":"One of Japan's most famous traditional festivals in Kyoto."},
+      {"name":"Sapporo Snow Festival","description":"Winter festival with huge ice sculptures."},
+      {"name":"Tanabata Festival","description":"Festival celebrating the meeting of star-crossed lovers."},
+      {"name":"Obon Festival","description":"Honoring ancestors with dances and lanterns."}
+    ],
+    "business": [
+      {"name":"Tsukiji Fish Market","description":"World-famous seafood market in Tokyo."},
+      {"name":"Akihabara","description":"Electronics, anime, and otaku culture hub."},
+      {"name":"Shibuya Crossing","description":"Iconic busy intersection, great for sightseeing and shopping."},
+      {"name":"Roppongi Hills","description":"Business district with shopping, art, and nightlife."},
+      {"name":"Ginza","description":"High-end shopping district, home to luxury brands."},
+      {"name":"Namba","description":"Vibrant area in Osaka with shopping and entertainment."},
+      {"name":"Umeda","description":"Major business and transport hub in Osaka."},
+      {"name":"Fukuoka Hakata Station","description":"Commercial and shopping hub in southern Japan."},
+      {"name":"Shinagawa","description":"Business and transit center in Tokyo."},
+      {"name":"Osaka Castle Area","description":"Historical sites mixed with modern commercial zones."}
+    ]
+  },
+  "famous_people": {
+    "athletes": [
+      {"name":"Yuzuru Hanyu","occupation":"Figure Skater","bio":"Two-time Olympic gold medalist and World Champion figure skater.","comment":"Yuzuru's elegance on the ice is amazing!"},
+      {"name":"Naomi Osaka","occupation":"Tennis Player","bio":"Grand Slam champion and advocate for mental health awareness.","comment":"She's a true inspiration both on and off the court."},
+      {"name":"Shohei Ohtani","occupation":"Baseball Player","bio":"Pitcher and hitter for the Los Angeles Angels, known as a two-way star.","comment":"He's like a real-life superhero in baseball!"},
+      {"name":"Kōhei Uchimura","occupation":"Gymnast","bio":"Multiple Olympic and World Champion in artistic gymnastics.","comment":"His precision and consistency are incredible."},
+      {"name":"Rikako Ikee","occupation":"Swimmer","bio":"Record-setting swimmer and national champion, overcoming leukemia.","comment":"A story of perseverance and courage."},
+      {"name":"Kei Nishikori","occupation":"Tennis Player","bio":"First Japanese man to reach a Grand Slam singles final.","comment":"Such focus and determination in every match!"},
+      {"name":"Hidemasa Morita","occupation":"Soccer Player","bio":"Midfielder for Sporting CP and Japan national team.","comment":"He controls the field like a maestro."},
+      {"name":"Rui Hachimura","occupation":"Basketball Player","bio":"NBA player for the Washington Wizards, standout forward.","comment":"A strong role model for young athletes."},
+      {"name":"Ai Fukuhara","occupation":"Table Tennis Player","bio":"Former table tennis prodigy and Olympian.","comment":"Her dedication to sport is inspiring!"},
+      {"name":"Takuma Sato","occupation":"Race Car Driver","bio":"Two-time IndyCar Series winner and Japanese motorsport legend.","comment":"Speed and skill beyond imagination!"}
+    ],
+    "scientists": [
+      {"name":"Shinya Yamanaka","occupation":"Stem Cell Researcher","bio":"Nobel Prize winner for discovering how to create induced pluripotent stem cells.","comment":"His work is changing medicine!"},
+      {"name":"Susumu Tonegawa","occupation":"Molecular Biologist","bio":"Nobel laureate for discoveries in memory and genetics.","comment":"Fascinating insights into the human brain."},
+      {"name":"Yoshinori Ohsumi","occupation":"Cell Biologist","bio":"Awarded the Nobel Prize for his work on autophagy.","comment":"His research teaches cells' secret life!"},
+      {"name":"Ei-ichi Negishi","occupation":"Chemist","bio":"Nobel Prize winner in chemistry for cross-coupling reactions.","comment":"Brilliant contributions to chemistry!"},
+      {"name":"Koichi Tanaka","occupation":"Chemist","bio":"Nobel Prize winner for mass spectrometry in protein research.","comment":"He unlocked new doors in science."},
+      {"name":"Hideki Yukawa","occupation":"Theoretical Physicist","bio":"First Japanese Nobel laureate for predicting the meson particle.","comment":"His theories are the foundation of particle physics."},
+      {"name":"Tasuku Honjo","occupation":"Immunologist","bio":"Nobel Prize winner for discoveries in cancer therapy.","comment":"His work is saving countless lives."},
+      {"name":"Hiroshi Amano","occupation":"Engineer/Physicist","bio":"Nobel laureate for inventing efficient blue LEDs.","comment":"His invention lights up the world!"},
+      {"name":"Koji Nakanishi","occupation":"Chemist","bio":"Renowned for studies in bioorganic chemistry and natural products.","comment":"His research inspires chemists worldwide."},
+      {"name":"Fumiko Yonezawa","occupation":"Physicist","bio":"Pioneer in condensed matter physics and quantum mechanics.","comment":"A trailblazer for women in science."}
+    ],
+    "ceos": [
+      {"name":"Tadashi Yanai","occupation":"CEO, Fast Retailing (Uniqlo)","bio":"Founder and CEO of Uniqlo, global clothing brand.","comment":"From small store to worldwide success!"},
+      {"name":"Masayoshi Son","occupation":"CEO, SoftBank","bio":"Visionary entrepreneur and investor, leading SoftBank Group.","comment":"His tech investments shape the future."},
+      {"name":"Akio Toyoda","occupation":"CEO, Toyota Motor Corporation","bio":"President of Toyota, driving innovation in automotive industry.","comment":"Leading cars into a sustainable future."},
+      {"name":"Hiroshi Mikitani","occupation":"CEO, Rakuten","bio":"Founder of Rakuten, Japan's e-commerce giant.","comment":"Revolutionizing online shopping in Japan!"},
+      {"name":"Kazuo Inamori","occupation":"Founder, Kyocera","bio":"Entrepreneur and philanthropist, pioneered electronics manufacturing.","comment":"His principles inspire businesses and people alike."},
+      {"name":"Shigenobu Nagamori","occupation":"CEO, Nidec","bio":"Leading electric motor manufacturing worldwide.","comment":"Engineering innovation at its finest."},
+      {"name":"Kenji Kasahara","occupation":"CEO, Mixi","bio":"Entrepreneur in social networking and digital services.","comment":"Connecting people through technology!"},
+      {"name":"Hiroshi Yamauchi","occupation":"Former CEO, Nintendo","bio":"Transformed Nintendo from card company to global gaming icon.","comment":"A legend in the gaming world."},
+      {"name":"Yoshikazu Tanaka","occupation":"CEO, Gree","bio":"Founder of mobile social gaming platform Gree.","comment":"Bringing fun to mobile users everywhere."},
+      {"name":"Takeshi Idezawa","occupation":"CEO, LINE Corporation","bio":"Leader of Japan's most popular messaging app.","comment":"Connecting millions of people daily."}
+    ],
+    "government_officials": [
+      {"name":"Shinzo Abe","occupation":"Former Prime Minister","bio":"Longest-serving Prime Minister of Japan, known for economic reforms.","comment":"Influential in modern Japanese politics."},
+      {"name":"Yuriko Koike","occupation":"Governor of Tokyo","bio":"First female governor of Tokyo, leading urban initiatives.","comment":"Breaking barriers in leadership!"},
+      {"name":"Fumio Kishida","occupation":"Prime Minister","bio":"Current Prime Minister, focusing on diplomacy and economic stability.","comment":"Guiding Japan in today's world."},
+      {"name":"Taro Aso","occupation":"Former Prime Minister","bio":"Also served as Finance Minister, influential politician.","comment":"A veteran statesman with a strong presence."},
+      {"name":"Seiko Noda","occupation":"Politician","bio":"Former Minister for Internal Affairs, advocate for gender equality.","comment":"Promotes fairness and inclusion in society."},
+      {"name":"Ichiro Ozawa","occupation":"Politician","bio":"Veteran political figure, known as the 'Shadow Shogun'.","comment":"A fascinating strategist in politics."},
+      {"name":"Yoshihide Suga","occupation":"Former Prime Minister","bio":"Succeeded Shinzo Abe, known for continuity in governance.","comment":"Focused on modernizing government operations."},
+      {"name":"Naoki Inose","occupation":"Former Governor of Tokyo","bio":"Urban planner and author, promoted cultural initiatives.","comment":"Passionate about Tokyo's growth and culture."},
+      {"name":"Koichi Hagiuda","occupation":"Minister of Education","bio":"Shaping Japan's education policies and reforms.","comment":"Investing in the future generations."},
+      {"name":"Seiji Maehara","occupation":"Politician","bio":"Former Foreign Minister, diplomat, and international relations expert.","comment":"Bringing Japan closer to the world."}
+    ],
+    "music_artists": [
+      {"name":"Hikaru Utada","occupation":"Singer-Songwriter","bio":"Known for Kingdom Hearts theme songs; also worked on albums First Love and Bad Mode, influential in J-Pop.","comment":"Her voice is unforgettable!"},
+      {"name":"Ayumi Hamasaki","occupation":"Singer-Songwriter","bio":"Iconic J-Pop singer-songwriter, 'Empress of J-Pop', influential in fashion and youth culture.","comment":"A true queen of J-Pop!"},
+      {"name":"Yasutaka Nakata","occupation":"Music Producer","bio":"Producer for Perfume and Kyary Pamyu Pamyu, shaped modern electropop.","comment":"He defines the sound of modern Japan!"},
+      {"name":"Ryuichi Sakamoto","occupation":"Composer","bio":"Academy Award-winning composer for The Last Emperor, influential in global music.","comment":"A genius who bridged East and West through music."},
+      {"name":"Nujabes","occupation":"Hip-Hop Producer","bio":"Pioneer of Japanese hip-hop and jazz rap, respected worldwide.","comment":"His beats are timeless and soulful."},
+      {"name":"Babymetal","occupation":"Metal Idol Group","bio":"Metal idol group blending J-Pop and heavy metal, internationally recognized.","comment":"They broke every rule and it worked!"},
+      {"name":"King Gnu","occupation":"Rock Band","bio":"Contemporary rock band known for cinematic soundtracks and genre-blending.","comment":"Their sound is fresh and cinematic!"},
+      {"name":"Perfume","occupation":"Techno-Pop Group","bio":"Techno-pop girl group known for futuristic visuals and synchronized performances.","comment":"Their performances are mesmerizing!"},
+      {"name":"Joe Hisaishi","occupation":"Composer","bio":"Composer for Studio Ghibli films like Spirited Away and Princess Mononoke.","comment":"His music brings Ghibli worlds to life!"},
+      {"name":"LiSA","occupation":"Singer","bio":"Anime singer known for Demon Slayer theme songs (Gurenge, Homura), popular in Japan and internationally.","comment":"Her energy and passion are incredible!"}
+    ]
+  }
+}
