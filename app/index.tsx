@@ -260,7 +260,7 @@ export default function HomeScreen() {
                   <MessageCircle size={26} color="#fff" />
                 </View>
                 <View style={styles.heroTextWrap}>
-                  <Text style={styles.heroLabel}>Reina</Text>
+                  <Text style={styles.heroLabel}>Companion</Text>
                   <Text style={styles.heroSublabel}>Chat • Unlock knowledge • Bond</Text>
                 </View>
               </View>

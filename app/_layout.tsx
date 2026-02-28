@@ -7,10 +7,28 @@ import { Platform, StatusBar } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { GameProvider } from "@/contexts/GameContext";
 import { ThemeProvider, useTheme } from "@/contexts/ThemeContext";
+import { TouchableOpacity } from "react-native";
+import { useRouter } from "expo-router";
+import { Home } from 'lucide-react-native';
 
 SplashScreen.preventAutoHideAsync();
 
 const queryClient = new QueryClient();
+
+function HomeButton() {
+  const router = useRouter();
+  const { colors } = useTheme();
+  return (
+    <TouchableOpacity
+      onPress={() => router.replace('/')}
+      style={{ marginRight: 4, padding: 6 }}
+      hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+      testID="header-home-btn"
+    >
+      <Home size={20} color={colors.text} />
+    </TouchableOpacity>
+  );
+}
 
 function RootLayoutNav() {
   const { colors, isDark } = useTheme();
@@ -26,6 +44,7 @@ function RootLayoutNav() {
         contentStyle: { backgroundColor: colors.background },
         headerTransparent: true,
         headerBlurEffect: isDark ? 'dark' : undefined,
+        headerRight: () => <HomeButton />,
       }}
     >
       <Stack.Screen name="index" options={{ headerShown: false }} />
